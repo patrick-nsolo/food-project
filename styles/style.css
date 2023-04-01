@@ -73,5 +73,9 @@ h1{
     height:100px;
 }
 .nav-bar{
-    display:flex;
+    float:right;
+}
+.nav-bar ul{
+    display:inline-flex; 
+    padding:25px 50px;
 }
