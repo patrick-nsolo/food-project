@@ -72,11 +72,3 @@ h1{
     width:400px;
     height:100px;
 }
-.nav-bar{
-    float:right;
-    justify-content: space-around;
-}
-.nav-bar ul{
-    display:inline-flex; 
-    
-}
