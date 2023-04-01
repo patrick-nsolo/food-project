@@ -9,6 +9,8 @@ img{
 }
 :root{
     /*colors*/
+    --seafood-blue: hsl(197.4,100%,29%);
+    --sea-shell: hsl(25, 100%, 97%);
     --ultramarine-blue: hsl(222, 100%, 55%);
     --silver-metallic: hsl(240, 4%, 71%);
     --fiery-rose_12: hsla(354, 86%, 65%, 0.12);
@@ -69,6 +71,10 @@ h1{
     font-family: var(--ff-poppins);
 }
 .logo{
-    width:400px;
+    width:300px;
     height:100px;
+}
+figure img{
+    width:260px;
+    height:400px;
 }
