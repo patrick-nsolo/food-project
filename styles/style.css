@@ -68,3 +68,10 @@ img{
 h1{
     font-family: var(--ff-poppins);
 }
+.logo{
+    width:400px;
+    height:100px;
+}
+.nav-bar{
+    display:flex;
+}
