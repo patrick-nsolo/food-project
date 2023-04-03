@@ -1,11 +1,9 @@
 .nav-wrapper{
     position:relative;
-    width: 100%;
+    width: 50%;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--orange);
-    padding: 0 10px;
     transition: 0.3s;
 }
 .nav{
@@ -45,7 +43,7 @@
     position: absolute;
     height: 4px;
     right:0;
-    background: var(--white);
+    background: var(--seafood-blue);
     border-radius: 10px;
     transition:0.3s;
 }
@@ -101,7 +99,7 @@
         position: fixed;
         top:0;
         right:-350px;
-        background: var(--orange);
+        background: var(--sea-shell);
         width:350px;
         height: 100%;
         padding-top: 70px;
