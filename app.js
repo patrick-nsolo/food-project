@@ -2,7 +2,7 @@
 function isElementVisible(element){
     var rect = element.getBoundingClientRect();
     var windowHeight = (window.innerHeight || document.documentElement.clientHeight);
-    return (rect.top <=windowHeight && rect.botttom >= 0);
+    return (rect.top <=windowHeight && rect.bottom >= 0);
 }
 var heroSection = document.getElementById('hero');
 var slideInLeft = heroSection.querySelectorAll('.slide-in-left');
