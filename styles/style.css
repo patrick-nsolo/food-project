@@ -103,10 +103,21 @@ button:hover{
     color:var(--white);
     font-weight: bold;
 }
-#about h2{
+#about{
+    text-align: center;
+    padding: 50px 50px;
+}
+#about h2, .paragraph-style h2{
     color:var(--seafood-blue);
-    font-size: 1.5rem; 
-    
+    font-size: 2rem; 
+}
+.paragraph-style{
+    word-wrap: break-word;
+    font-size: 1.3rem;    
+}
+.cheff{
+    width: 1000px;
+    height: 660px;
 }
 
 
