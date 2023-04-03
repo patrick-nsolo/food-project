@@ -1,6 +1,6 @@
 .nav-wrapper{
     position:relative;
-    width: 50%;
+    width: 100%;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -88,9 +88,6 @@
     .hamburger, .toggle-btn{
         display: block;
         margin: 0;
-    }
-    .nav-wrapper{
-        padding: 10px 20px;
     }
     .menu{
         justify-content: start;

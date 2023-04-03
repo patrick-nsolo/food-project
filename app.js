@@ -1,3 +1,21 @@
+//navigation calls
+const hamburgerButton = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.menu');
+
+navMenu.addEventListener("click", function(){
+    hamburgerButton.style.display = "none";
+});
+
+
+
+
+
+
+
+
+
+
+
 //Transition calls
 function isElementVisible(element){
     var rect = element.getBoundingClientRect();
