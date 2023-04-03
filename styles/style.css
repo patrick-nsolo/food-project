@@ -103,7 +103,7 @@ button:hover{
     color:var(--white);
     font-weight: bold;
 }
-#about{
+.about{
     text-align: center;
     padding: 50px 300px;
 }
