@@ -148,11 +148,33 @@ table{
     margin: auto;
     background: var(--sea-shell);
     margin-top: 50px;
+    margin-bottom: 80px;
 }
 th,td{
     border: 1px solid var(--seafood-blue);
     padding: 8px; 
     width: 300px;
+}
+#hours{
+    margin-bottom: 80px;
+}
+.hours-contents{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.hour-image img{
+    width:400px;
+    height:267px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.hours-text{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 30px;
+}
+dl{
+    margin-top: 30px;
 }
   
 
