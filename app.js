@@ -1,9 +1,18 @@
 //navigation calls
 const hamburgerButton = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.menu');
+const navMenu = document.querySelectorAll('.menu a');
 
-navMenu.addEventListener("click", function(){
-    hamburgerButton.style.display = "none";
+navMenu.forEach(link => {
+    link.addEventListener("click", function(event){
+        event.preventDefault();
+        const sectionId = link.getAttribute("href");
+        const section = document.querySelector(sectionId);
+        section.scrollIntoView({behavior: "smooth"});
+        navMenu.classList.remove("show");
+    });
+});
+hamburgerButton.addEventListener("click", function(){
+    navMenu.classList.remove("show");
 });
 
 
