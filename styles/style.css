@@ -93,8 +93,15 @@ button{
     height:50px;
     border-radius: 25px;
     background-color: var(--sea-shell);
-    color:var(--seafood-blue)
-
+    color:var(--eerie-black-1);
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+}
+button:hover{
+    background-color: var(--seafood-blue);
+    color:var(--white);
+    font-weight: bold;
 }
 .hero-text h1{
     
