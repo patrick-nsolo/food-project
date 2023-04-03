@@ -112,7 +112,7 @@ button:hover{
     font-size: 2rem; 
 }
 .paragraph-style{
-    word-wrap: break-word;
+    display:flex;
     font-size: 1.3rem;    
 }
 .cheff{
