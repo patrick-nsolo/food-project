@@ -75,14 +75,34 @@ h1{
     height:100px;
 }
 .hero-image{
-    width:500px;
-    height:400px;
+    width:700px;
+    height:600px;
 }
 .hero{
     display: flex;
-    justify-content:center;
+    justify-content:center;   
+}
+.hero-text{
+    margin-top: 150px;   
+    color:var(--seafood-blue);
+    font-size: 1.5rem;
+    line-height: 50px;
+}
+button{
+    width:200px;
+    height:50px;
+    border-radius: 25px;
+    background-color: var(--sea-shell);
+    color:var(--seafood-blue)
 
+}
+.hero-text h1{
     
 }
 
 
+@media screen and (max-width:600px){
+    .hero{
+        display:inline-block;
+    }
+}
