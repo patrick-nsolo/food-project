@@ -96,16 +96,24 @@ button{
     height:50px;
     border-radius: 25px;
     background-color: var(--sea-shell);
-    color:var(--eerie-black-1);
     font-size: 1rem;
     margin-top: 20px;
     border: none;
+    
 }
 button:hover{
     background-color: var(--seafood-blue);
     color:var(--white);
     font-weight: bold;
     cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    color:var(--seafood-blue);
+}
+button a:hover{
+    text-decoration: none;
+    color:var(--white);
 }
 .about{
     text-align: center;
@@ -224,7 +232,18 @@ a box-icon{
     color:var(--seafood-blue);
     border-radius: 3px;
 } 
-
+/*Transitions*/
+.slide-in-left{
+    animation: slide-in-from-left 1s ease-in-out forwards;
+}
+@keyframes slide-in-from-left{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
 
 @media screen and (max-width:600px){
     .hero{
