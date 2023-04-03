@@ -105,14 +105,13 @@ button:hover{
 }
 #about{
     text-align: center;
-    padding: 50px 50px;
+    padding: 50px 300px;
 }
-#about h2, .paragraph-style h2{
+#about h2{
     color:var(--seafood-blue);
     font-size: 2rem; 
 }
-.paragraph-style{
-    display:flex;
+.paragraph{
     font-size: 1.3rem;    
 }
 .cheff{
