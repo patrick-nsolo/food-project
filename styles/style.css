@@ -244,6 +244,28 @@ a box-icon{
         transform: translateX(0%);
     }
 }
+.text-slide-right{
+    animation: slide-in-from-right 1s ease-in-out forwards;
+}
+@keyframes slide-in-from-right{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+.button-slide-right{
+    animation: slide-in-from-right 1s ease-in-out forwards;
+}
+@keyframes slide-in-from-right{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
 
 @media screen and (max-width:600px){
     .hero{
