@@ -134,10 +134,27 @@ button:hover{
     width: 500px;
     height:600px;
 }
-.menu h2{
+.menu-title{
     color: var(--seafood-blue);
     font-size: 2rem; 
+    text-align: center;
+    margin-top: 50px;
 }
+.menu{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    background: var(--sea-shell);
+    margin-top: 50px;
+}
+th,td{
+    border: 1px solid var(--seafood-blue);
+    padding: 8px; 
+    width: 300px;
+}
+  
 
 
 @media screen and (max-width:600px){
