@@ -107,7 +107,35 @@ img{
 }
 .about h2{
     color: var(--seafood-blue);
-    
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--ff-poppins);
+}
+.paragraph{
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 20px;
+}
+.paragraph strong{
+    font-size: 1.3rem;
+    font-style: normal;
+}
+.founder{
+    padding: 20px;
+}
+.founder-text{
+    background: var(--sea-shell);
+    padding: 10px;
+    text-align: justify;
+}
+.founder-text h2{
+    color:var(--seafood-blue);
+    font-family: var(--ff-poppins);
+}
+.cheff{
+    height:400px;
+    margin-left: 20px;
 }
 
 
