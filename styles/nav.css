@@ -46,11 +46,13 @@
 
 /*DROPDOWN STYLING*/
 .dropdown-menu{
+    display:none;
     list-style: none;
     position: absolute;
-    top: 120px;
+    top: 110px;
     width: 100%;
-    background: var(--seafood-blue);    
+    background: var(--seafood-blue);  
+    opacity: 0.5;  
 }
 .dropdown-menu li {
     display: flex;
@@ -77,5 +79,8 @@
     }
     .toggle-btn{
         display:block;
+    }
+    .dropdown-menu{
+        dispay:block;
     }
 }
