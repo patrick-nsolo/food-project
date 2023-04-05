@@ -171,3 +171,10 @@ img{
 .contact-form{
     text-align: center;
 }
+label{
+    font-size: 1.3rem;
+    font-family: var(--ff-poppins);
+}
+input{
+    width: 300px;
+}
