@@ -159,3 +159,15 @@ img{
     margin: 10px 20px;
     line-height: 30px;
 }
+#contact{
+    padding: 30px;
+}
+.contact-title{
+    color:var(--seafood-blue);
+    font-family: var(--ff-poppins);
+    text-align: center;
+    font-size: 1.5rem;
+}
+.contact-form{
+    text-align: center;
+}
