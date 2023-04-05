@@ -176,12 +176,28 @@ label{
     font-family: var(--ff-poppins);
 }
 input{
-    width: 300px;
+    width: 250px;
     height: 50px;
     border-radius: 10px;
 }
 textarea{
-    width: 300px;
+    width: 250px;
     height: 300px;
     border-radius: 10px;
+}
+.address h2{
+    color:var(--seafood-blue);
+    font-family: var(--ff-poppins);
+    text-align: center;
+    font-size: 1.5rem;
+}
+.address ul li {
+    font-size: 1.3rem;
+    list-style: none;
+}
+footer{
+    height:50px;
+    background:var(--sea-shell);
+    text-align: center;
+    align-content: center;
 }
