@@ -101,6 +101,14 @@ img{
 .btn:hover{
     scale: 1.05;
 }
+.about{
+    padding: 30px;
+    align-items: center;
+}
+.about h2{
+    color: var(--seafood-blue);
+    
+}
 
 
 
