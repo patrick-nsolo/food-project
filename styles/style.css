@@ -137,6 +137,25 @@ img{
     height:400px;
     margin-left: 20px;
 }
-
-
-
+.hours{
+    color:var(--seafood-blue);
+    font-family: var(--ff-poppins);
+    padding:30px;
+    text-align: center;
+}
+.hour-image-1, .hour-image-2{
+    height:200px;
+    padding: 10px 40px;
+}
+.hours-text p{
+    color:var(--seafood-blue);
+    font-family: var(--ff-poppins);
+    text-align: center;
+    font-size: 1.2rem;
+}
+.hours-text dl{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px 20px;
+    line-height: 30px;
+}
