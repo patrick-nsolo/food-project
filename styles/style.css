@@ -68,22 +68,39 @@ img{
 }
 
 /*MAIN STYLING STARTS HERE*/
+
 .hero{
     display:inline-block;
     padding: 50px;  
 }
 .hero-image{
-    height:400px;
+    height:300px;
 }
 .hero-text {
     text-align: center;
 }
 .hero-text h1{
     font-family: var(--ff-poppins);
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:var(--seafood-blue);
 }
-
+.btn{
+    height:50px;
+    width:150px;
+    border-radius: 7px;
+    border: 0;
+    background: var(--sea-shell);
+    transition: 0.3s ease-in-out;
+    padding: 10px;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 1rem;
+    color:var(--seafood-blue);
+}
+.btn:hover{
+    scale: 1.05;
+}
 
 
 
