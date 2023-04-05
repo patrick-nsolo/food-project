@@ -70,12 +70,19 @@ img{
 /*MAIN STYLING STARTS HERE*/
 .hero{
     display:inline-block;
+    padding: 50px;  
 }
 .hero-image{
-    height: 400px;
+    height:400px;
 }
-
-
+.hero-text {
+    text-align: center;
+}
+.hero-text h1{
+    font-family: var(--ff-poppins);
+    font-size: 2rem;
+    color:var(--seafood-blue);
+}
 
 
 
