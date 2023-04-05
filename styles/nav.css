@@ -1,0 +1,31 @@
+.nav-wrapper{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    height:100px;
+}
+.nav{
+    display:inline-flex;
+    
+}
+.menu{
+    display:flex;  
+    list-style: none;
+    
+}
+.menu li{
+    padding: 50px 50px;
+     
+}
+.menu li a{
+    text-decoration: none;
+}
+.hamburger{
+    height: 5px;
+    width: 30px;
+    background:var(--seafood-blue);
+    border-radius: 2px;
+}
+

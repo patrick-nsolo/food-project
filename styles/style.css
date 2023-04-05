@@ -68,27 +68,3 @@ img{
 }
 
 /*sTYLING STARTS HERE*/
-.nav-wrapper{
-    
-    display: flex;
-    justify-content: space-between;
-}
-.logo img{
-    height:100px;
-}
-.nav{
-    display:inline-flex;
-    
-}
-.menu{
-    display:flex;  
-    list-style: none;
-    
-}
-.menu li{
-    padding: 50px 50px;
-     
-}
-.menu li{
-    text-decoration: none;
-}
