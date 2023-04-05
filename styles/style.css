@@ -68,3 +68,6 @@ img{
 }
 
 /*sTYLING STARTS HERE*/
+body{
+    height:100vh;
+}
